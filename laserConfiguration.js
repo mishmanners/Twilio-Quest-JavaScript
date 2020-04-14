@@ -1,0 +1,1 @@
+const laserStatus = 'OFF';
