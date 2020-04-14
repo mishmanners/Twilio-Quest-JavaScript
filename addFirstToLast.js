@@ -6,7 +6,3 @@ function addFirstToLast(allthethings) {
   }
   return firstAndLast;
 }
-//console.log(addFirstToLast(['first', 'second', 'third']));
-//console.log(addFirstToLast(['golden', 'terrier']));
-//console.log(addFirstToLast(['cheerio']));
-//console.log(addFirstToLast([]));
