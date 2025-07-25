@@ -45,7 +45,11 @@ function reverseSentence(sentence) {
             if (word === 'I' || word === word.toUpperCase() || word.match(/[$€£¥]/g)) {
                 return word;
             }
-            // For other words, make sure first letter is lowercase unless it's a proper noun that should stay capitalized
+            // Check if it's a proper noun (starts with capital letter) - preserve it
+            if (word.charAt(0) === word.charAt(0).toUpperCase() && word.length > 1) {
+                return word; // Keep proper nouns as they are
+            }
+            // For regular words, make sure first letter is lowercase
             return word.charAt(0).toLowerCase() + word.slice(1);
         }
     });
