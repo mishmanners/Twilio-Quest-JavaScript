@@ -12,7 +12,10 @@ const testCases = [
     'No punctuation here',
     'Multiple words with exclamation!',
     'NASA has landed on Mars.',
-    'Today, I bought a new car, and it was $2,300.',];
+    'Today, I bought a new car, and it was $2,300.',
+    'How are you today?',
+    'I visited Ethopia last year.',
+    'Hurray!']
 
 console.log('Testing reverseSentence function:\n');
 
